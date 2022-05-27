@@ -6,8 +6,8 @@ from binance.error import ClientError
 
 config_logging(logging, logging.DEBUG)
 
-key = ""
-secret = ""
+key = "bo1AZXVO0eTmQ8ijh9SkwkWPyvSylSzQbIHp5OLKrdKFp51tu1XwBsW7CGyYolQ8"
+secret = "ZDteHlKmYbytZ8Pnre72SIpxjXhetc9yuCuGZBOwz1HuacOxXMR0s7paU9TFwitB"
 
 um_futures_client = UMFutures(key=key, secret=secret)
 

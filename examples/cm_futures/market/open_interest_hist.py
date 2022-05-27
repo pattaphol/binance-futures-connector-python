@@ -8,5 +8,5 @@ config_logging(logging, logging.DEBUG)
 cm_futures_client = CMFutures()
 
 logging.info(
-    cm_futures_client.open_interest_hist("BTCUSD", "PERPETUAL", "1h", **{"limit": 30})
+    cm_futures_client.open_interest_hist("BTCUSD", "PERPETUAL", "1h", **{"limit": 5})
 )
